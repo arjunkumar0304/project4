@@ -7,7 +7,9 @@ Git add, commit, and commit messages.
 
 # 3.Branching and Merging:
 3.1	Basics of branching and merging in Git
+
 3.2	Creating branches for new features or bug fixes.
+
 3.3	Merging changes back into the main branch.
 <img width="857" height="1104" alt="image" src="https://github.com/user-attachments/assets/0df7f589-ebb2-4bbe-8aa3-cfb226bafb8c" />
 
@@ -17,11 +19,13 @@ Git add, commit, and commit messages.
 
 # 4.Remote Repositories:
 4.1	Cloning repositories from remote sources.
+
 4.2	Pushing changes to remote repositories
 <img width="1031" height="1204" alt="image" src="https://github.com/user-attachments/assets/d1e2f903-c9b2-48ca-a837-ae7238901405" />
 
 5.	Collaborative Work:
 5.1	Working with others on the same project.
+  	
 5.2	Handling merge conflicts.
 
 <img width="891" height="1052" alt="image" src="https://github.com/user-attachments/assets/5221f048-0abf-47a9-bc59-a8ca51afb419" />
@@ -62,5 +66,29 @@ Interactive rebase is used to edit or rearrange past commits to make the history
 
 # 12.Stashing:
 Git stash temporarily saves your uncommitted changes so you can work on something else and apply them later.
+<img width="946" height="741" alt="Screenshot 2025-10-10 185526" src="https://github.com/user-attachments/assets/9a41de8b-b8a3-4385-ac80-fd4ec0d886f1" />
+
+# 13. Git GUI:
+graphical interface that lets you use Git without typing commands.
+You can stage, commit, view history, and manage branches using simple buttons and menus instead of Git Bash commands.
+
+# 14.Reflog:(Reference log)
+It shows a history of all actions (commits, resets, rebases, checkouts, etc.) that have happened in your local repository, even if those commits are not visible in git log anymore. 
+<img width="977" height="571" alt="Screenshot 2025-10-10 173602" src="https://github.com/user-attachments/assets/5664e1f9-c50b-4352-b52a-e0aeac892ddc" />
+
+# 15.Bisect
+git bisect helps you find which commit introduced a bug by checking commits one by one between a good and bad version.
+It automatically tests halfway commits until it finds the first bad one.
+<img width="819" height="677" alt="Screenshot 2025-10-10 180942" src="https://github.com/user-attachments/assets/1f14ddd5-2663-42c1-9601-0eaddc9e9293" />
+
+# 16.Git cherry pick
+git cherry-pick is used to copy a specific commit from one branch and apply it to another branch.
+It helps you reuse important changes without merging the whole branch.
+
+<img width="993" height="1043" alt="Screenshot 2025-10-10 183737" src="https://github.com/user-attachments/assets/362a9e55-634f-4b80-98d8-e14be6e9c30f" />
+
+<img width="991" height="575" alt="Screenshot 2025-10-10 183801" src="https://github.com/user-attachments/assets/36bc2efd-1078-403a-828e-df6518b30f41" />
+
+
 
 
