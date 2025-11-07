@@ -1,0 +1,6 @@
+data analyst 
+powerbi
+sql
+py
+excel
+
